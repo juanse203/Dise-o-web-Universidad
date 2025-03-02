@@ -1,6 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-item a:hover{
     color: #3d7208;
 }
 .text-green {
     color: #3d7208;
 }
+.opciones .card {
+    border-radius: 20px;
+}
+.opciones .card-body img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.col img{
+    width: 150px;
+    height: 100px;
+}
+
+.opciones .btn {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+}
+

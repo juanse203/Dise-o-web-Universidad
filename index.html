@@ -10,90 +10,169 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand"><span class="text-green">Uni</span>Amazonia</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            La universidad
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="accordion accordion-flush" id="accordionUniversidad">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseUniversidad"
-                                            aria-expanded="false" aria-controls="flush-collapseUniversidad">
-                                            Historia
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseUniversidad" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionUniversidad">
-                                        <div class="accordion-body">Información sobre la universidad.</div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_o6I7j6ntENpCvMA9UcyM3n-kt-b1fY9z6g&s"
+                        alt=""><span class="text-green">Uni</span>Amazonia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                La universidad
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark">
+                                <div class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Presentación</a>
+                                    <div class="dropdown-menu dropdown-menu-dark">
+                                        <a class="dropdown-item" href="#">NIT</a>
+                                        <a class="dropdown-item" href="#">Misión y Visión</a>
+                                        <a class="dropdown-item" href="#">Objetivos y funciones</a>
+                                        <a class="dropdown-item" href="#">Participa</a>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="#">Organigrama</a>
+                                <div class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Normativa</a>
+                                    <div class="dropdown-menu dropdown-menu-dark">
+                                        <a class="dropdown-item" href="#">Marco juridico</a>
+                                        <a class="dropdown-item" href="#">Repositorio de documentos</a>
+                                        <div class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Estatutos</a>
+                                            <div class="dropdown-menu dropdown-menu-dark">
+                                                <a class="dropdown-item" href="#">Estatuto General</a>
+                                                <a class="dropdown-item" href="#">Estatuto Docente</a>
+                                                <a class="dropdown-item" href="#">Estatuto Estudiantil</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Órganos de dirección</a>
+                                        <div class="dropdown-menu dropdown-menu-dark">
+                                            <a class="dropdown-item" href="#">Consejo superior</a>
+                                            <a class="dropdown-item" href="#">Rectoria</a>
+                                            <a class="dropdown-item" href="#">Consejo academico</a>
+                                            <a class="dropdown-item" href="#">Secretaria general</a>
+                                        </div>
+                                    </div>
+                                    <a class="dropdown-item" href="#">Perfil funcionarios</a>
+                                    <a class="dropdown-item" href="#">Funcionarios</a>
+                                    <a class="dropdown-item" href="#">Dependencias</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Programas
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Pregrado</a>
+                                <a class="dropdown-item" href="#">Posgrado</a>
+                                <a class="dropdown-item" href="#">Educación a distancia</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gestión
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Control y rendición de cuentas</a>
+                                <a class="dropdown-item" href="#">Contratación</a>
+                                <a class="dropdown-item" href="#">Politicas, planes, programas y proyectos
+                                    institucionales</a>
+                                <a class="dropdown-item" href="#">Plan de desarrollo institucional</a>
+                                <a class="dropdown-item" href="#">Defensa judicial</a>
+                                <a class="dropdown-item" href="#">Información financiera</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Atención al ciudadano</a>
+                                    <div class="dropdown-menu dropdown-menu-dark">
+                                        <a class="dropdown-item" href="#">Peticiones, quejas y reclamos</a>
+                                        <a class="dropdown-item" href="#">Glosario</a>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="#">Foros de discusión</a>
+                                <a class="dropdown-item" href="#">Radio en linea</a>
+                                <a class="dropdown-item" href="#">Tramites Uniamazonia</a>
+                                <a class="dropdown-item" href="#">Noticias y eventos</a>
+                                <a class="dropdown-item" href="#">Datos abiertos</a>
+                                <a class="dropdown-item" href="#">Portafolios sector externo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Convocatorias
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Ofertas de empleo</a>
+                                <a class="dropdown-item" href="#">Invitaciones a contratar</a>
+                                <a class="dropdown-item" href="#">Elecciones</a>
+                                <a class="dropdown-item" href="#">Proveedores</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Investigación
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Vicerrectoria de invesgación e innovación</a>
+                                <a class="dropdown-item" href="#">Grupos de investigación</a>
+                                <a class="dropdown-item" href="#">Nuestras revistas</a>
+                                <a class="dropdown-item" href="#">Convocatorias</a>
+                                <a class="dropdown-item" href="#">Unidades de apoyo a la investigación</a>
+                                <a class="dropdown-item" href="#">Laboratorios e infraestructura</a>
+                                <div class="dropdown-submenu dropdown-menu-dark">
+                                    <a class="dropdown-item dropdown-toggle" href="#">Editorial</a>
+                                    <div class="dropdown-menu dropdown-menu-dark">
+                                        <a class="dropdown-item" href="#">Catalogo de publicaciones</a>
+                                        <a class="dropdown-item" href="#">Publica con nosotros</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Programas
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="accordion accordion-flush" id="accordionProgramas">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseProgramas"
-                                            aria-expanded="false" aria-controls="flush-collapseProgramas">
-                                            Carreras
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseProgramas" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionProgramas">
-                                        <div class="accordion-body">Lista de programas académicos.</div>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sedes
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Sede Guaviare</a>
+                                <a class="dropdown-item" href="#">Sede Putumayo</a>
+                                <a class="dropdown-item" href="#">Sede Leticia</a>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Gestión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Convocatorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Investigación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sedes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Transparencia</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Transparencia</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -105,19 +184,9 @@
                 aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./Imagenes/Imagen U.jpg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-                <img src="./Imagenes/Imagen U 2.jpg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
                 <img src="./Imagenes/imagen U 3.jpg" class="d-block w-100" alt="">
             </div>
             <div class="carousel-item" data-bs-interval="10000">
@@ -144,95 +213,35 @@
     <hr>
     <section class="opciones section-padding">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Inscripciones</p>
-                        </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Inscripciones</p>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Aspirantes</p>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Aspirantes</p>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Estudiantes</p>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Estudiantes</p>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Graduados</p>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Graduados</p>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Calendario academico</p>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Calendario Académico</p>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Transparencia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Catalogo en linea OPAC</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">PQRS-D</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Participa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="card text-center bg-white pb-2">
-                        <div class="card-body">
-                            <img src="https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg"
-                                class="img-fluid">
-                            <p class="btn bg-success text-white">Contratación</p>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="btn bg-success text-white">Transparencia</p>
                     </div>
                 </div>
             </div>
@@ -241,92 +250,115 @@
     <hr>
 
     <section class="Noticias section-padding">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card-title text-dark text-center bg-white pb-2">
-                    <h2>ÚLTIMAS NOTICIAS</h2>
-                </div>
-            </div>
-        </div>
         <div class="container">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="card text-dark text-center bg-white pb-2">
-                            <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Dia%20del%20Reciclador.jpg"
-                                class="d-block w-50 mx-auto" alt="Día Mundial del Reciclaje">
-                            <div class="card-body">
-                                <h5 class="card-title">Día Mundial del Reciclaje</h5>
-                                <p class="card-text">Un llamado global a la acción por un planeta más sostenible. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos fuga explicabo
-                                    perspiciatis, aperiam quibusdam ullam id sequi! Placeat ab maiores quis quo minus
-                                    quisquam a aspernatur quaerat repellat animi?</p>
-                                <p class="btn bg-success text-white">Leer mas</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="card text-dark text-center bg-white pb-2">
-                            <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Imagen%20de%20apoyo%20005.jpeg"
-                                class="d-block w-50 mx-auto" alt="Movilidad Internacional">
-                            <div class="card-body">
-                                <h5 class="card-title">Movilidad Internacional</h5>
-                                <p class="card-text">La Universidad de la Amazonia destaca la valiosa experiencia. Lorem
-                                    ipsum dolor sit, amet consectetur adipisicing elit. Nam, aliquid doloremque eos
-                                    iusto sed, quibusdam soluta enim quasi culpa quis expedita perspiciatis accusamus
-                                    earum pariatur nesciunt libero? Quas, nihil ipsa!</p>
-                                <p class="btn bg-success text-white">Leer mas</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card text-dark text-center bg-white pb-2">
-                        <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Horarios%20Futbol%20Estudiantes.jpg"
-                            class="d-block w-50 mx-auto" alt="Fútbol Uniamazonia">
-                        <div class="card-body">
-                            <h5 class="card-title">Fútbol Uniamazonia</h5>
-                            <p class="card-text">¡Vive tu pasión por el fútbol! Consulta los horarios de
-                                entrenamiento. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos
-                                quam veritatis, iure quia neque et iusto rem ipsa expedita! A aperiam aliquam
-                                ratione adipisci veniam doloribus corrupti impedit fugiat?</p>
-                            <p class="btn bg-success text-white">Leer mas</p>
-                        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-title text-dark text-center bg-white pb-2">
+                        <h2 class="text-success fw-bold">ÚLTIMAS NOTICIAS</h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
+            <div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Dia%20del%20Reciclador.jpg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Día Mundial del Reciclaje</h5>
+                                        <p class="card-text">Un llamado global a la acción por un planeta más
+                                            sostenible...</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Imagen%20de%20apoyo%20005.jpeg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Movilidad Internacional</h5>
+                                        <p class="card-text">La Universidad de la Amazonia destaca la valiosa
+                                            experiencia...</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Horarios%20Futbol%20Estudiantes.jpg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fútbol Uniamazonia</h5>
+                                        <p class="card-text">¡Vive tu pasión por el fútbol! Consulta los horarios de
+                                            entrenamiento.</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Dia%20del%20Reciclador.jpg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Día Mundial del Reciclaje</h5>
+                                        <p class="card-text">Un llamado global a la acción por un planeta más
+                                            sostenible...</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Imagen%20de%20apoyo%20005.jpeg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Movilidad Internacional</h5>
+                                        <p class="card-text">La Universidad de la Amazonia destaca la valiosa
+                                            experiencia...</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card text-dark text-center bg-white pb-2">
+                                    <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Horarios%20Futbol%20Estudiantes.jpg"
+                                        class="d-block w-100 noticia-img" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fútbol Uniamazonia</h5>
+                                        <p class="card-text">¡Vive tu pasión por el fútbol! Consulta los horarios de
+                                            entrenamiento.</p>
+                                        <p class="btn bg-success text-white">Leer más</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </section>
+    <hr>
 
-    <section class="Información">
+    <section class="Información section-padding">
         <div class="container text-center">
             <div class="row">
-                <div class="col">
-                    <h5>ENLACES INSTITUCIONALES</h5>
-                    <a href="#">Salas y vehiculos</a><br>
-                    <a href="#">Vista 360</a><br>
-                    <a href="#">Extension</a><br>
-                    <a href="#">SG-SST</a><br>
-                    <a href="#">NAF</a><br>
-                    <h5>BUSCANOS EN FACEBOOK</h5>
-
-                    <h5>TRAMITES UNIAMAZONIA</h5>
-
-                    <h5>ATENCION AL CIUDADANO</h5>
-                    
-                </div>
                 <div class="col">
                     <div><img
                             src="https://www.uniamazonia.edu.co/inicio/images/banners/2024/Actualizaci%C3%B3n/Banner/Camino%20acreditaci%C3%B3n.jpg"
@@ -341,7 +373,7 @@
                             alt=""></div>
                 </div>
                 <div class="col">
-                    <h5>CANAL EN YOUTUBE</h5>
+                    <h5 class="text-success fw-bold"> CANAL EN YOUTUBE</h5>
                     <iframe src="https://www.youtube.com/embed/BH8azKgncwk?si=1k6oW8iiEWh_jR8n"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -459,7 +491,108 @@
             </div>
         </div>
     </section>
+    <section class="accesos section-padding">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-success fw-bold">Accesos Directos</h2>
+                <hr class="border-success">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <span>Inscripciones</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <div class="icono">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <span>Convocatorias</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <div class="icono">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <span>Información institucional</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <div class="icono">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <span>Servicios</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <div class="icono">
+                                <i class="fas fa-check-square"></i>
+                            </div>
+                            <span>Atención al ciudadano</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2 d-flex align-items-center">
+                        <div class="acceso-item">
+                            <div class="icono">
+                                <i class="fas fa-check-square"></i>
+                            </div>
+                            <span>Renta joven</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <div class="social-bar">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i>
+            <img src="./Imagenes/Iconos/facebook.png" class="d-block w-100" alt="">
+        </a>
+        <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i>
+            <img src="./Imagenes/Iconos/gorjeo.png" class="d-block w-50" alt="">
+        </a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i>
+            <img src="./Imagenes/Iconos/logotipo-de-instagram.png" class="d-block w-50" alt="">
+        </a>
+        <a href="#" class="social-icon"><i class="fab fa-youtube"></i>
+            <img src="./Imagenes/Iconos/youtube.png" class="d-block w-50" alt="">
+        </a>
+        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i>
+            <img src="./Imagenes/Iconos/tik-tok.png" class="d-block w-50" alt="">
+        </a>
+    </div>
+    
+    <hr>
+    <footer class="piePagina text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h5>Contacto</h5>
+                    <hr>
+                    <p><strong>Dirección:</strong> Sede Porvenir Calle 17 Diagonal 17 con carrera 3F - Barrio Porvenir
+                    </p>
+                    <p><strong>Atención al público:</strong> Lunes a Viernes de 7:30 am a 11:30 am y 1:30 pm a 5:30 pm
+                    </p>
+                    <p><strong>Correo de contacto:</strong> atencionalciudadano@uniamazonia.edu.co</p>
+                    <p><strong>Contenidos web:</strong> webmaster@uniamazonia.edu.co</p>
+                    <p><strong>Notificaciones judiciales:</strong> njudiciales@uniamazonia.edu.co</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHE_ZE6aoJxV31dENtjuGwgvJWoaXrUBfnlNrMohe3ltWUYtBWy_Kb9kLtuz_-0GBn0Y&usqp=CAU"
+                        alt="Logo Universidad" class="img-fluid" style="max-width: 250px;">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2025 Universidad Uniamazonia. Todos los derechos reservados. | <a href="#"
+                            class="text-white">Política de Privacidad</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="/JS/bootstrap.bundle.js"></script>
 </body>
 

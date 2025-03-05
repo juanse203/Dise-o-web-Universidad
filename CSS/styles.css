@@ -1,31 +1,141 @@
-*{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.nav-item a:hover{
+body{
+    padding-top: 70px;
+}
+.navbar{
+    background-color: black;
+}
+.piePagina{
+    background-color: black;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    display: none;
+    position: absolute;
+}
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+.nav-item a:hover {
     color: #3d7208;
 }
 .text-green {
     color: #3d7208;
 }
-.opciones .card {
-    border-radius: 20px;
+.navbar-brand img{
+    width: 60px;
+    height: 50px;
 }
-.opciones .card-body img {
-    width: auto;
-    height: auto;
+.carousel-inner {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    margin: 0 auto;
 }
-.col img{
-    width: 150px;
-    height: 100px;
+.opciones .card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    justify-content: center; 
+    padding: 20px;
 }
-
-.opciones .btn {
-    margin-top: 10px;
-    font-size: 14px;
+.opciones .card {
+    width: 150px; 
+    background: white;
+    justify-content: center;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.opciones .card-body {
+    background-image: url('https://marandua.com.co/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-13-at-8.17.26-AM-e1676302327176.jpeg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card p {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.Noticias-img{
+    height: 180px;
+    object-fit: cover;
+}
+.Noticias .card{
+    max-width: 350px;
+    height: 100%;
+}
+.Noticias .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col img {
+    width: 350px;
+    height: 100px;
+}
+.acceso-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+.acceso-item:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.icono {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 5px;
+}
+.acceso-item span {
+    font-weight: bold;
+    color: black;
 }
 
+.social-bar {
+    position: fixed;
+    top: 50%; 
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent; 
+}
+
+.social-icon {
+    background-color: green;
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
